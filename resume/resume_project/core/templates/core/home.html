@@ -1,0 +1,35 @@
+{% extends  'core/base.html' %} 
+{% load static %}
+{% block content %}
+    <div class="mt-5">
+        <div class="text-center" >
+            <img src="{% static 'core/images/rubi2.jpg'%}" alt="profile picture" 
+            class=" img-thumbnail" width="300px" height="40px">
+        </div>
+        <div class="text-white mt-2 mx-5" >
+            <h1 class=" fw-bold text-white st-font">Hello,</h1>
+
+        <div class="px-4" style="line-height: 2rem;">
+            <p style="text-indent: 100px;" class="text-white">I am
+                 <b class="text-warning">Rubi Verma</b> having 5 year of full-stack web
+                 development experience for global businesses, 
+                 I offer the technical expertise you are seeking for your web developer position </p>
+                 
+                <p> Since earnig my bachelor's degree in internet and web developemnt from 
+                MMM university, I have served as a web developer at <b class="text-warning">MICROSOFT</b>,
+                one of biggest premier digital marketing and web developmet firm. In this position, 
+                I have led web development projects for clients in diverse industries including technology,
+                manufacturing, pharmaceutical, hospital, ratail and financial srvices. </p>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum illum magnam 
+                commodi voluptate repellendus oluta non, aperiam ea voluptatibus nobis vitae, ex
+                s veritatis, exercitationem ipsa? Soluta, placeat nam? Sit?</p>
+        </div>
+        </div>
+        <div class="text-center fw-bold"> 
+            <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 me-5" >Hire ME</a>
+            <a href="{% url 'contact' %}" class="btn btn-outline-info my-3 mr">Contact</a>
+        </div>
+    </div>
+
+{% endblock content %}
