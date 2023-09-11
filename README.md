@@ -1,2 +1,2 @@
 # webapp_resume
-django project on web resume 
+django project on web based portfolio
